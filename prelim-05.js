@@ -6,14 +6,25 @@
 function getDayMessage(day) {
     switch (day) {
         case "Monday":
+            message = "It's the weekday.";
+            break;
         case "Tuesday":
+            message = "It's the weekday.";
+            break;
         case "Wednesday":
+            message = "It's the weekday.";
+            break;
         case "Thursday":
+            message = "It's the weekday.";
+            break;
         case "Friday":
-            message = "It's a weekday.";
+            message = "It's the weekday.";
+            break;
         case "Saturday":
+            message = "It's the weekend!";
+            break;
         case "Sunday":
-            let message = "It's the weekend!";
+            message = "It's the weekend!";
             break;
         default:
             message = "Invalid day.";
